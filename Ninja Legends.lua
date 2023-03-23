@@ -77,7 +77,9 @@ function buyswords()
                     local oh1 = "buyAllSwords"
                     local oh2 = {
                         "Ground",
+                        "Enchanted Island",
                         "Astral Island",
+                        "Mystical Island",
                         "Space Island",
                         "Tundra Island",
                         "Eternal Island",
@@ -86,7 +88,17 @@ function buyswords()
                         "Ancient Inferno Island",
                         "Midnight Shadow Island",
                         "Mythical Souls Island",
-                        "Winter Wonder Island"
+                        "Winter Wonder Island",
+                        "Golden Master Island",
+                        "Dragon Legend Island",
+                        "Cybernetic Legends Island",
+                        "Skystorm",
+                        "Ultraus Island",
+                        "Chaos Legends Island",
+                        "Soul Fusion Island",
+                        "Dark Elements Island",
+                        "Inner Peace Island",
+                        "Blazing Vortex Island"
                     }
                     for i = 1, #oh2 do
                         game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
@@ -109,7 +121,9 @@ function buybelts()
                     local oh1 = "buyAllBelts"
                     local oh2 = {
                         "Ground",
+                        "Enchanted Island",
                         "Astral Island",
+                        "Mystical Island",
                         "Space Island",
                         "Tundra Island",
                         "Eternal Island",
@@ -118,7 +132,17 @@ function buybelts()
                         "Ancient Inferno Island",
                         "Midnight Shadow Island",
                         "Mythical Souls Island",
-                        "Winter Wonder Island"
+                        "Winter Wonder Island",
+                        "Golden Master Island",
+                        "Dragon Legend Island",
+                        "Cybernetic Legends Island",
+                        "Skystorm",
+                        "Ultraus Island",
+                        "Chaos Legends Island",
+                        "Soul Fusion Island",
+                        "Dark Elements Island",
+                        "Inner Peace Island",
+                        "Blazing Vortex Island"
                     }
                     for i = 1, #oh2 do
                         game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
@@ -161,7 +185,9 @@ function buyskill()
                     local oh1 = "buyAllSkills"
                     local oh2 = {
                         "Ground",
+                        "Enchanted Island",
                         "Astral Island",
+                        "Mystical Island",
                         "Space Island",
                         "Tundra Island",
                         "Eternal Island",
@@ -170,7 +196,17 @@ function buyskill()
                         "Ancient Inferno Island",
                         "Midnight Shadow Island",
                         "Mythical Souls Island",
-                        "Winter Wonder Island"
+                        "Winter Wonder Island",
+                        "Golden Master Island",
+                        "Dragon Legend Island",
+                        "Cybernetic Legends Island",
+                        "Skystorm",
+                        "Ultraus Island",
+                        "Chaos Legends Island",
+                        "Soul Fusion Island",
+                        "Dark Elements Island",
+                        "Inner Peace Island",
+                        "Blazing Vortex Island"
                     }
                     for i = 1, #oh2 do
                         game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
@@ -192,8 +228,10 @@ function buyshurikens()
                 if game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart") then
                     local oh1 = "buyAllShurikens"
                     local oh2 = {
-                        "Ground",
+                       "Ground",
+                        "Enchanted Island",
                         "Astral Island",
+                        "Mystical Island",
                         "Space Island",
                         "Tundra Island",
                         "Eternal Island",
@@ -202,7 +240,17 @@ function buyshurikens()
                         "Ancient Inferno Island",
                         "Midnight Shadow Island",
                         "Mythical Souls Island",
-                        "Winter Wonder Island"
+                        "Winter Wonder Island",
+                        "Golden Master Island",
+                        "Dragon Legend Island",
+                        "Cybernetic Legends Island",
+                        "Skystorm",
+                        "Ultraus Island",
+                        "Chaos Legends Island",
+                        "Soul Fusion Island",
+                        "Dark Elements Island",
+                        "Inner Peace Island",
+                        "Blazing Vortex Island"
                     }
                     for i = 1, #oh2 do
                         game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(oh1, oh2[i])
