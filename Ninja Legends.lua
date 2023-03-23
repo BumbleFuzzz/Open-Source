@@ -386,6 +386,9 @@ main:AddButton(
             game.ReplicatedStorage.rEvents.elementMasteryEvent:FireServer("Electral Chaos")
             game.ReplicatedStorage.rEvents.elementMasteryEvent:FireServer("Masterful Wrath")
             game.ReplicatedStorage.rEvents.elementMasteryEvent:FireServer("Shadow Charge")
+            game.ReplicatedStorage.rEvents.elementMasteryEvent:FireServer("Blazing Entity")
+            game.ReplicatedStorage.rEvents.elementMasteryEvent:FireServer("Eternity Storm")
+            game.ReplicatedStorage.rEvents.elementMasteryEvent:FireServer("Shadowfire")
         end
     }
 )
